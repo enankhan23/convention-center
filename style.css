@@ -1,0 +1,42 @@
+.navbar .container .nav-head{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+.package h2{
+    font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        /* font-size: 38px; */
+}
+
+.package .card .card-body h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.package .card .card-body p,ul{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #848199;
+}
+.package .card .card-body .btn{
+    color: #3F87F5;
+    background-color: #fff7fc;
+    font-weight: 700;
+}
+
+.package .card .card-body:hover{
+    background-color: #3F87F5;
+    color: #ffffff;
+    border-radius: 2%;
+}
+.package .card .card-body:hover p{
+    color: #ffffff;
+}
+.package .card .card-body:hover ul{
+    color: #ffffff;
+}
+
+
+    /* font-family: 'Poppins', sans-serif; */
+
