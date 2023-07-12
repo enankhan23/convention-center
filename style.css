@@ -1,42 +1,97 @@
-.navbar .container .nav-head{
+.navbar .container .nav-head {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 22px;
 }
-.package h2{
-    font-family: 'Oswald', sans-serif;
-        font-weight: 400;
-        /* font-size: 38px; */
+
+.package h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    /* font-size: 38px; */
 }
 
-.package .card .card-body h4{
+.package .card {
+    border-radius: 5%;
+}
+
+.package .card .card-body h4 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
-.package .card .card-body p,ul{
+.package .card .card-body p,
+ul {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #848199;
 }
-.package .card .card-body .btn{
+
+.package .card .card-body .btn {
     color: #3F87F5;
     background-color: #fff7fc;
     font-weight: 700;
 }
 
-.package .card .card-body:hover{
+.package .anim {
+    transition: transform 0.4s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.package .anim:hover {
+    transform: translateY(-2.5em);
     background-color: #3F87F5;
     color: #ffffff;
-    border-radius: 2%;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+
 }
-.package .card .card-body:hover p{
+
+.package .still {
+    bottom: 2.5em;
+    background-color: #3F87F5;
+    color: #ffffff;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+
+}
+
+.package .still .card-body p {
     color: #ffffff;
 }
-.package .card .card-body:hover ul{
+
+.package .still .card-body ul {
     color: #ffffff;
 }
 
+.package .anim .card-body:hover p {
+    color: #ffffff;
+}
 
-    /* font-family: 'Poppins', sans-serif; */
+.package .anim .card-body:hover ul {
+    color: #ffffff;
+}
 
+.place .container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.place .container .col .card .card-body .card-title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.place .container .col .card .card-body .card-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.FAQ h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.FAQ .col .accordion .accordion-item .accordion-body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #848199;
+}
+
+/* font-family: 'Poppins', sans-serif; */
